@@ -1,7 +1,8 @@
-body{ font-family: 'Open Sans', sans-serif;
+body{ font-family: 'Handlee', cursive;
   font-size: 16px;
   line-height: 1;
 }
+
 
 textarea{
   background: transparent;
@@ -14,7 +15,11 @@ textarea{
 
 .jumbotron {
   text-align: center;
-  background-color: transparent;
+  background-image: url(https://images.unsplash.com/photo-1493606278519-11aa9f86e40a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+  background-position: center;
+  background-size: cover;
+  display: block;
+  background-repeat: no-repeat;
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
@@ -32,27 +37,26 @@ textarea{
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;;
+  border-top: 1px solid black;;
 }
 
 .hour {
   background-color: #ffffff;
   color: #000000;
-  border-top: 1px dashed #000000;
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: #D3D09E  ;
   color: white;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #E6B0AA ;
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color:#F3F3F3  ;
   color: white;
 }
 
@@ -60,8 +64,8 @@ textarea{
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
-  color: white;
+  background-color:#8A6767;
+  color:black;
 }
 
 .saveBtn i:hover {
