@@ -1,6 +1,7 @@
 body{ font-family: 'Handlee', cursive;
   font-size: 16px;
   line-height: 1;
+  background-color: rgb(77, 77, 77);
 }
 
 
@@ -15,7 +16,7 @@ textarea{
 
 .jumbotron {
   text-align: center;
-  background-image: url(https://images.unsplash.com/photo-1493606278519-11aa9f86e40a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+  background-image: url(https://images.unsplash.com/photo-1488998427799-e3362cec87c3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
   background-position: center;
   background-size: cover;
   display: block;
@@ -46,24 +47,24 @@ textarea{
 }
 
 .past {
-  background-color: #D3D09E  ;
+  background-color: #ececec  ;
   color: white;
 }
 
 .present {
-  background-color: #E6B0AA ;
+  background-color: #83677B;
   color: white;
 }
 
 .future {
-  background-color:#F3F3F3  ;
+  background-color:rgb(243, 243, 243)  ;
   color: white;
 }
 
 .saveBtn {
-  border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
+  border-left: 1px solid rgb(54, 0, 0);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
   background-color:#8A6767;
   color:black;
 }
