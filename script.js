@@ -1,5 +1,7 @@
-var text;
-var hour;
+var text = $(this).siblings(".event-input").val();
+console.log(text);
+ var hour = $(this).siblings(".hour").text();
+console.log(hour);
 
 
 $(document).ready(function () {
@@ -76,11 +78,7 @@ function savedSheduleData() {
     $("#17.event-input").val(localStorage.getItem("17"));
 };
 
-
+//giving a function to the save button, where it stores the new data input
 $("saveBtn").click(function () {
-    text = $(this).siblings(".event-input").val();
-    console.log(text);
-    hour = $(this).siblings(".hour").text();
-    console.log(hour);
     localStorage.setItem(hour, JSON.stringify(text));
 });
