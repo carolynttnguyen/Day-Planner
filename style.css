@@ -53,12 +53,12 @@ textarea{
 
 .present {
   background-color: #83677B;
-  color: white;
+  color:black;
 }
 
 .future {
   background-color:rgb(243, 243, 243)  ;
-  color: white;
+  color:black;
 }
 
 .saveBtn {
